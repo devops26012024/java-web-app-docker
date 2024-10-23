@@ -16,6 +16,7 @@ spec:
       containers:
       - name: javawebapp
         image: pkumard4/java:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 ---

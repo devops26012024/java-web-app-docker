@@ -14,7 +14,7 @@ spec:
         app: javawebapp
     spec:
       containers:
-      - name: javawebapp
+      - name: javwebapp
         image: pkumard4/java:latest
         ports:
         - containerPort: 8080

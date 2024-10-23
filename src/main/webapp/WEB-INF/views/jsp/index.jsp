@@ -24,7 +24,7 @@
 		<h1>${title}</h1>
 		<p>
 			<c:if test="${not empty msg}">
-				Pradeep Kmar D ${msg}
+				Pradeep Kumar D ${msg}
 			</c:if>
 
 			<c:if test="${empty msg}">
